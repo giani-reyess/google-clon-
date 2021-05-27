@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+/* NAV */
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+header nav ul {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-left {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-right {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-li {
+    margin: 5px 10px;
+}
+
+.nav-li a:hover{
+    color: black;
+}
+
+.menu-icon {
+    background-image: url(https://static.thenounproject.com/png/756729-200.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+nav .nav-right li a img {
+    border-radius: 50%;
+}
+
+/* MAIN */
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .img-container {
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+main .img-container img {
+    margin-bottom: 25px;
+    width: 272px;
+    height: 92px;
+}
+
+/* Form */
+
+main .main-input {
+    width: 582px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 582px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 487px;
+    height: 40px;
+    border: none;
+    outline: none;
+    margin: 0 10px 0 10px;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input-container .search-icon {
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+main .main-input-container .micro-icon {
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+main .main-buttons div {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.main-buttons div button {
+    background-color: #f8f9fa;
+    border: 1px solid #ffffff;
+    padding: 10px 16px;
+    margin: 11px 4px 11px 4px;
+    border-radius: 4px;
+    color: #3c4043;
+}
+
+.main-buttons div button:hover {
+    border: 1px solid #dadce0
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-li {
+    display: inline-block;
+    margin: 18px 10px 15px 10px;
+}
+
+.footer-li a {
+    color: #70757a;
+    padding: 10px;
+}
+
+.footer-ul {
+    width: 100%;
+}
+
+#f4,#f5,#f6 {
+    float: right;
+}
